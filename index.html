@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="null.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="layout">
+		<div class="container">
+			<div class="search">
+				<input type="text" id="searchInput" class="search__input" placeholder="Enter title or author">
+				<button id="searchButton" class="search__button" onclick="searchBooks()">Search</button>
+			</div>
+			<div class="content">
+				<div class="books"></div>
+				<div class="pagination">
+					<button id="prevButton" class="pagination__button" onclick="prevPage()">Prev</button>
+					<button id="nextButton" class="pagination__button" onclick="nextPage()">Next</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
